@@ -80,7 +80,7 @@ function App() {
           <h2 className="text-2xl font-bold mb-6 text-center">Outros Produtos</h2>
 
           {/* Category Navigation */}
-          <div className="flex justify-center gap-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mb-6">
             <button
               className={`px-4 py-2 rounded-lg transition-colors ${
                 activeProductCategory === null
