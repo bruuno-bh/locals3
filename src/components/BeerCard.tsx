@@ -59,7 +59,7 @@ export const BeerCard: React.FC<BeerCardProps> = ({ beer }) => {
               <span>R$ {beer.prices.large.toFixed(2)}</span>
             </div>
             <div className="flex justify-between text-gray-300 text-sm font-medium">
-              <span>1L (mesa)</span>
+              <span>1L (viagem)</span>
               <span>R$ {beer.prices.pitcher.toFixed(2)}</span>
             </div>
           </div>

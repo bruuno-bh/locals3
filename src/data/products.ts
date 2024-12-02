@@ -340,7 +340,7 @@ export const products: Product[] = [
     name: 'Couvert',
     price: 7,
     category: 'Couvert',
-    description: 'Taxa de serviço por pessoa',
+    description: 'Valor cobrado nos dias que temos músicos na casa. O valor é revertido para o músico do dia. A cobrança é por pessoa e opicional.',
     icon: 'Utensils',
   },
 ];
