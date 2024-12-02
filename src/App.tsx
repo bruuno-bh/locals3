@@ -47,7 +47,10 @@ function App() {
       <main className="container mx-auto px-4 py-8">
         {/* Chopes da Casa */}
         <section className="py-8">
-          <h2 className="text-2xl font-bold mb-6 text-center">Chopes da Casa</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center">Chopes da Casa</h2>
+          <p className="text-gray-400 text-center mb-6">
+            Cervejas de produção própria e cervejarias convidadas. Buscamos sempre trazer a melhor qualidade de matéria prima junto com os melhores processos para ter um produto único para te agradar. Se precisar de ajuda consulte nossa equipe.
+          </p>
           <div className="relative">
             <button
               onClick={() => scroll(beerContainerRef, 'left')}
@@ -77,7 +80,10 @@ function App() {
 
         {/* Outros Produtos */}
         <section className="py-8">
-          <h2 className="text-2xl font-bold mb-6 text-center">Outros Produtos</h2>
+          <h2 className="text-2xl font-bold mb-2 text-center">Outros Produtos</h2>
+          <p className="text-gray-400 text-center mb-6">
+            Petiscos escolhidos especialmente para harmonizar com nossas cervejas, afinal não tem combinação melhor. Boa cerveja e um snack rápido. Souvenirs feitos para que você possa usar em qualquer lugar e levar um pouco da Locals Only com você.
+          </p>
 
           {/* Category Navigation */}
           <div className="flex flex-wrap justify-center gap-4 mb-6">
